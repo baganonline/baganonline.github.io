@@ -1,0 +1,2 @@
+Это новая страница
+[[playground:playground|PlayGround]]
