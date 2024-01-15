@@ -24,12 +24,12 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-#nav a{
-text-color: black;
-}
 
 body {
 	line-height: 1;
+}
+iframe, img, div{
+	border-radius: 13px;
 }
 .n1 {
     font-style: italic;
@@ -40,7 +40,19 @@ body {
 ol, ul {
 	list-style: none;
 }
-
+.ifr {
+	border: 0px none;
+	margin-left: -50px;
+	height: 700px;
+	margin-top: 0px;
+	width: 1024px;
+	overflow-x: auto;}
+.dv {
+	overflow: hidden;
+	margin: 15px auto;
+	margin-bottom: 15px;
+	width: 100%;
+	position: relative;}
 blockquote, q {
 	quotes: none;
 }
